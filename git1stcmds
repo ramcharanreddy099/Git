@@ -18,7 +18,7 @@ netbeans
 ---------------------------------------------------------
 i am created 2 files i am moving one are another area
 git add .
-git add *
+git add * -----all files
 git add*.java --------- to move only python r java files
 git status    --------to check files are in which area
 working Area          staggingarea         localrepo
