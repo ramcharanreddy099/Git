@@ -27,5 +27,7 @@ Dbdetails.py
 gitstaus.py
 vi deploy.sh---it will goes to working to change working area we are going to use git add .
 from stagging area to loacal repo "git commit -m "inital commit"
-git config --global user.email "
-git config --global user.name
+git config --global user.email "ramcharanreddy099@gmail.com"
+git config --global user.name "ramcharanreddy099"
+git config --global --list  -----------to view status
+git commit -m "initial commit" -----to send files to local repo
