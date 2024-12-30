@@ -21,6 +21,7 @@ git add .
 git add * -----all files
 git add*.java --------- to move only python r java files
 git status    --------to check files are in which area
+git add filename2 filename ---we can add particular files
 working Area          staggingarea         localrepo
 ------------          -------------        -------------
 Dbdetails.py
