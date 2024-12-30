@@ -28,10 +28,12 @@ Dbdetails.py         add to stg area
 gitstaus.py
 vi deploy.sh---it will goes to working to change working area we are going to use git add .
 ------------------------------------------
+from stagging area to loacal repo "git commit -m "inital commit"
 git config --global user.email "ramcharanreddy099@gmail.com"
-git config --global user.name "ramcharan"
-git config --global --list
-git commit -m "comments"
+git config --global user.name "ramcharanreddy099"
+git config --global --list  -----------to view status
+git commit -m "initial commit" -----to send files to local repo
+git add https://github.com/ramcharanreddy099/Git.git
 --------------------------------------
 by default once if u create repo its going to create one default branch master branch
 To configure remote repo to local repo
@@ -40,37 +42,4 @@ git remote -v
 git push test master-----to push file it will ask password and uname
 ---------------------------------------
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-from stagging area to loacal repo "git commit -m "inital commit"
-git config --global user.email "ramcharanreddy099@gmail.com"
-git config --global user.name "ramcharanreddy099"
-git config --global --list  -----------to view status
-git commit -m "initial commit" -----to send files to local repo
-git add https://github.com/ramcharanreddy099/Git.git
 
