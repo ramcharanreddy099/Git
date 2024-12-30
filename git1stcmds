@@ -24,14 +24,14 @@ git status    --------to check files are in which area
 git add filename2 filename ---we can add particular files
 working Area          staggingarea         localrepo
 ------------          -------------        -------------
-Dbdetails.py
+Dbdetails.py         add to stg area 
 gitstaus.py
 vi deploy.sh---it will goes to working to change working area we are going to use git add .
 ------------------------------------------
 git config --global user.email "ramcharanreddy099@gmail.com"
 git config --global user.name "ramcharan"
 git config --global --list
-git commit -m 
+git commit -m "comments"
 
 git remote -v 
 
