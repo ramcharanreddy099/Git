@@ -32,7 +32,10 @@ git config --global user.email "ramcharanreddy099@gmail.com"
 git config --global user.name "ramcharan"
 git config --global --list
 git commit -m "comments"
-
+--------------------------------------
+by default once if u create repo its going to create one default branch master branch
+To configure remote repo to local repo
+git add "https://github.com/ramcharanreddy099/Git.git"
 git remote -v 
 
 
