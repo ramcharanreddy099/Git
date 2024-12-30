@@ -3,4 +3,29 @@ sudo yum update -y
 sudo yum install git -y
 git --version
 ------------------------------------
-
+mkdir trianz
+cd trianz/
+pwd
+git init ------ Initialized empty Git repository
+ls -la
+----------------------------------
+IDEs integriated development environment to edit code we are not using vi we are using ides
+ex:
+Eclipse
+MyEclipse
+Intellij
+netbeans
+---------------------------------------------------------
+i am created 2 files i am moving one are another area
+git add .
+git add *
+git add*.java --------- to move only python r java files
+git status    --------to check files are in which area
+working Area          staggingarea         localrepo
+------------          -------------        -------------
+Dbdetails.py
+gitstaus.py
+vi deploy.sh---it will goes to working to change working area we are going to use git add .
+from stagging area to loacal repo "git commit -m "inital commit"
+git config --global user.email "
+git config --global user.name
