@@ -41,5 +41,8 @@ git remote add test https://github.com/ramcharanreddy099/Git.git
 git remote -v 
 git push test master-----to push file it will ask password and uname
 ---------------------------------------
+git log ---------to check who commited
+
+
 
 
