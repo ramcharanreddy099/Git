@@ -37,7 +37,7 @@ git add https://github.com/ramcharanreddy099/Git.git
 --------------------------------------
 by default once if u create repo its going to create one default branch master branch
 To configure remote repo to local repo
-git remote add test https://github.com/ramcharanreddy099/Git.git
+git remote add git7 https://github.com/ramcharanreddy099/Git.git
 git remote -v 
 git push test master-----to push file it will ask password and uname
 ---------------------------------------
