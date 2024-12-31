@@ -1,1 +1,42 @@
+git log ----its going to display the commit id and email id 
+git log -2 --- its going to display last 2 commit id
+git show  e3cb8fe ---- it will display comiited file and last changes in file take 6 r 7 characters
+git show --pretty="" --name-only 7b3421c21 --- it will display only file name
+--------------------------------------------------
+created multiple files in working are how to delete
+git clean -n "Would remove"
+git clean -p "Removing perminently"
+--------------------------------------------
+how to get back stagging area to working are
+git reset --- all files will comes to working are
+git reset elep.py --menstion file name it will come to working area
+-------------------------------------------
+git revert 2a53199b5
+reverted -- Revert "2newfiles"
+This reverts commit 2a53199b5a5babeac6b5b533696d041f7c774cc1.
+it will delete in local repo
+we need to remove remote repo
+git push 222 master
+Username for 'https://github.com': ramcharanreddy099
+Password for 'https://ramcharanreddy099@github.com':
+diff b/w reset and revert
+git revert :
+It undoes a commit by creating a new commit that reverses the changes.
+It preserves the commit history.
+Use it when you want to undo changes but keep the history intact.
+git reset :
+It removes commits from history.
+It can change the working directory (by deleting files or changes).
+Use it when you don't want those commits anymore.
+-------------------------------------------------
+vcs : each commit we are going to maintain version control system
+Git : git is a version control system it can be used to track the code
+github : github is a hosted service got git and it will provides gui
+--------------------------------------------------------------------
+git and svn
+git and cvs
+
+
+
+
 
