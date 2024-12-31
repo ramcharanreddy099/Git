@@ -39,7 +39,14 @@ git and tfs
 git is a distubted vcs
 svn cvs tfs vcs
 ------------------------------------------------------
-Add .gitignore
+IDES---eclipse .. these ids are going to generate file wich are not part of our sourse code we dont want to commit those files
+git status ----empty directorys are not going to display
+Add .gitignore : it not going to coomit files
+create vi gitignore
+ansi.java
+person.py
+/touchdirec
+-----------------------------------
 
 
 
