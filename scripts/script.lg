@@ -1,0 +1,38 @@
++ ifconfig
+enX0: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 9001
+        inet 172.31.26.224  netmask 255.255.240.0  broadcast 172.31.31.255
+        inet6 fe80::8dd:37ff:fed5:eeb  prefixlen 64  scopeid 0x20<link>
+        ether 0a:dd:37:d5:0e:eb  txqueuelen 1000  (Ethernet)
+        RX packets 615834  bytes 274733974 (262.0 MiB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 601919  bytes 64319091 (61.3 MiB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+lo: flags=73<UP,LOOPBACK,RUNNING>  mtu 65536
+        inet 127.0.0.1  netmask 255.0.0.0
+        inet6 ::1  prefixlen 128  scopeid 0x10<host>
+        loop  txqueuelen 1000  (Local Loopback)
+        RX packets 12  bytes 1020 (1020.0 B)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 12  bytes 1020 (1020.0 B)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
++ who
+ec2-user pts/0        2024-12-26 16:24 (167.103.54.186)
++ ip a
+1: lo: <LOOPBACK,UP,LOWER_UP> mtu 65536 qdisc noqueue state UNKNOWN group default qlen 1000
+    link/loopback 00:00:00:00:00:00 brd 00:00:00:00:00:00
+    inet 127.0.0.1/8 scope host lo
+       valid_lft forever preferred_lft forever
+    inet6 ::1/128 scope host noprefixroute 
+       valid_lft forever preferred_lft forever
+2: enX0: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 9001 qdisc fq_codel state UP group default qlen 1000
+    link/ether 0a:dd:37:d5:0e:eb brd ff:ff:ff:ff:ff:ff
+    altname eni-07672bada868bf33b
+    altname device-number-0.0
+    inet 172.31.26.224/20 metric 512 brd 172.31.31.255 scope global dynamic enX0
+       valid_lft 3008sec preferred_lft 3008sec
+    inet6 fe80::8dd:37ff:fed5:eeb/64 scope link proto kernel_ll 
+       valid_lft forever preferred_lft forever
++ du -sh
+64K	.
