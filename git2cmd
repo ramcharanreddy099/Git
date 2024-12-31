@@ -47,6 +47,10 @@ ansi.java
 person.py
 /touchdirec
 -----------------------------------
+git branch dev ----- to create branch
+git checkout dev ----- to switch one branch to another branch
+
+
 
 
 
