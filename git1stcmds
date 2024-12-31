@@ -39,7 +39,7 @@ by default once if u create repo its going to create one default branch master b
 To configure remote repo to local repo
 git remote add git7 https://github.com/ramcharanreddy099/Git.git
 git remote -v 
-git push test master-----to push file it will ask password and uname
+git push git7 master-----to push file it will ask password and uname
 ---------------------------------------
 git log ---------to check who commited
 
