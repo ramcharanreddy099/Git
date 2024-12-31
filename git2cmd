@@ -31,10 +31,16 @@ Use it when you don't want those commits anymore.
 -------------------------------------------------
 vcs : each commit we are going to maintain version control system
 Git : git is a version control system it can be used to track the code
-github : github is a hosted service got git and it will provides gui
+github : github is a hosted service git and it will provides gui
 --------------------------------------------------------------------
 git and svn
 git and cvs
+git and tfs
+git is a distubted vcs
+svn cvs tfs vcs
+------------------------------------------------------
+Add .gitignore
+
 
 
 
