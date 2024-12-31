@@ -49,6 +49,10 @@ person.py
 -----------------------------------
 git branch dev ----- to create branch
 git checkout dev ----- to switch one branch to another branch
+git merge dev ------to merge code
+git diff dev ---- to check main and branch diff
+git checkout -b stage ----we can create new branch and switch another branch
+
 
 
 
